@@ -1,4 +1,4 @@
-name: Daily main.py at KST midnight
+name: -0-
 
 on:
   schedule:
