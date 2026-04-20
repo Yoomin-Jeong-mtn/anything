@@ -18,6 +18,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run main.py
-        env:
-          BRAZE_API_KEY: ${{ secrets.BRAZE_API_KEY }}
         run: python main.py
