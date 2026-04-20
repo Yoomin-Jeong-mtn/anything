@@ -1,4 +1,4 @@
-name: Daily Python Run
+name: Daily main.py at KST midnight
 
 on:
   schedule:
