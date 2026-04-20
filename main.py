@@ -8,7 +8,7 @@ from typing import Dict, List, Any, Optional
 # 설정값 (환경변수로 관리)
 # ==============================
 BRAZE_REST_ENDPOINT = "https://rest.iad-07.braze.com"
-BRAZE_API_KEY = os.environ.get("BRAZE_API_KEY")  # 환경변수에서 읽어옴
+BRAZE_API_KEY = "9d075fc3-cd26-4980-bddf-254eec5a13a5"  # 환경변수에서 읽어옴
 
 HEADERS = {
     "Authorization": f"Bearer {BRAZE_API_KEY}",
